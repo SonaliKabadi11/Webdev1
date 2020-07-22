@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+p{
+    font-size: .9em;
+    line-height: 1.6em;
+}
+
+
+.menu{
+    padding: 0.8em 1.2em;
+}
+
+.logo{
+    
+    
+    text-align: center;
+    padding: 0.8em 1.2em;
+}
+.logo img{
+    left: 50%;
+    margin-top: 5%;
+    width: 50%;
+}
+.drones{
+    text-align: center;
+    padding-top: 1em 1.2em;
+    background-color: lavender;
+    
+
+    
+    
+}
+
+
+.people
+{
+    text-align: center;
+    margin-top: 5%;
+    background: rgb(34, 33, 33);
+    color: rgba(240, 228, 240, 0.658);
+    font-size: .8em;
+     
+
+}
+.people ul li img{
+    margin-top: 5%;
+}
+.start{
+    background-color: rgba(128, 128, 128, 0.137);
+    text-align: center;
+    background: rgba(0, 81, 255, 0.651);
+    display: block;
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: cornsilk;
+    text-decoration: none;
+    
+}
+
+.contents{
+    margin: 10%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.hidemobile{
+    display: none;
+}
+.nav ul{
+    position: fixed;
+    z-index: 7;
+    width: 40%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background: rgba(251, 252, 253, 0);
+    height: 100%;
+    padding-top: 3em;
+}
+.menu{
+    cursor: pointer;
+}
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    background: rgba(159, 159, 160, 0.432);
+}
+.nav ul li a:hover{
+    background-color: rgba(64, 69, 71, 0.178);
+}
+
+.exit-btn{
+    margin-bottom: 1em;
+    margin-top: -1.3em;
+    text-align: right;
+    padding: 0 1.4em;
+}
+
+.exit-btn img{
+    width: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px){
+    .hidedesktop{
+        display: none;
+
+    }
+    .hidemobile{
+        display: block;
+        
+    }
+    .nav ul{
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        display: flex;
+        padding: 0;
+
+    }
+    .exit-btn{
+        display:none;
+    }
+    .nav ul li {
+        float: left;
+        
+    }
+    .nav ul li a{
+        background: inherit;
+        padding: 1em 2em;
+    }
+    .nav ul li a:hover{
+        background-color:inherit;
+    }
+    .drones ul{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10%;
+    }
+    .people ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+
+
+
+
